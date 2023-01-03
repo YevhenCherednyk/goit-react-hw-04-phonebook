@@ -7,7 +7,6 @@ import ContactItem from 'components/ContactItem';
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <List>
-      
       {contacts.map(({ id, name, number }) => (
         <ContactItem
           key={id}
